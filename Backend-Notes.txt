@@ -1,0 +1,26 @@
+                                   EMS BACKEND (Node Express + MONGODB)
+
+
+
+                      1. Create a folder for backend (ems-backend)
+                      2. Create a package.json - npm init -y
+                      3.Create a database in MONGODB and create  a collection named as employee
+                      4.install express - for creating app in backend- npm i express
+                      5.cors- npm i cors  -
+                           The word CORS stands for “Cross-Origin Resource Sharing”. Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented by the browser which allows a server or an API(Application Programming Interface) to indicate any origins (different in terms of protocol, hostname, or port) other than its origin from which the unknown origin gets permission to access and load resources.
+                      6.create index.js
+                      node + mongodb connection
+
+                      7. create a service inside it create db.json file
+                      8.mongoose library
+                      its used connect node and mongodb
+                      npm i mongoose
+
+                      9 create a model and scheme for the collection
+
+                      10. create afile for implementing the logics -(logics.js)
+
+                      11.create routes
+                      inside the index.js file,define the routes
+                      getAllEmployee - loacalhost://8000/getAllEmployee
+
